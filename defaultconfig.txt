@@ -1,0 +1,47 @@
+{
+    "Widgets": [
+        {
+            "Type": "Temperature", 
+            "Params": {
+                "TargetLocation": [
+                    125,
+                    100
+                ], 
+                "Location": [
+                    125, 
+                    100
+                ]
+            }, 
+            "DataMapName": "NODE1"
+        },
+        {
+            "Type": "Pressure", 
+            "Params": {
+                "TargetLocation": [
+                    400,
+                    100
+                ], 
+                "Location": [
+                    400, 
+                    100
+                ]
+            }, 
+            "DataMapName": "NODE2"
+        },
+        {
+            "Type": "Humidity", 
+            "Params": {
+                "TargetLocation": [
+                    600,
+                    100
+                ], 
+                "Location": [
+                    600, 
+                    100
+                ]
+            }, 
+            "DataMapName": "NODE3"
+        }        
+    ], 
+    "BackgroundImage": "floorplan4.jpg"
+}
